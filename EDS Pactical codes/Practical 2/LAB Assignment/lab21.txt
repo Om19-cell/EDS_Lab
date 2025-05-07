@@ -1,0 +1,12 @@
+array = list(map(int,input().split()))
+key = int(input())
+
+found = False
+for index in range(len(array)):
+	if array[index] == key:
+		print(index)
+		found = True
+		break
+		
+if not found:
+	print("Not found")

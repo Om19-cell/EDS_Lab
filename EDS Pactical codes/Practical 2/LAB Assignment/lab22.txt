@@ -1,0 +1,5 @@
+heights=list(map(int,input().split()))
+
+tallest_player_height = max(heights)
+
+print(tallest_player_height)
